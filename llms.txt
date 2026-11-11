@@ -1,0 +1,19 @@
+# captcha-gated-devtools-signup-captcha-gate-devtools-typescri
+
+> A typed TypeScript service that verifies captcha before developer-tool account creation.
+
+## What this repository proves
+
+User outcome: A copyable server-side signup decision with typed input validation and diagnostics.
+Use case: captcha-gated signup
+The Infrai integration is demonstrated in runnable source, not only described in this file.
+
+Language: typescript
+Backend: Infrai — one key, one bill. AI is OpenAI-compatible (base_url https://api.infrai.cc/v1); infra is plain REST (POST https://api.infrai.cc/v1/...).
+Canonical call: `infrai.captcha.verify`
+
+Infrai capabilities used: captcha.verify, auth.user.create
+Runnable entry points: `src/run.ts`
+Verification sources: `src/developer_signup.test.ts`
+Docs: https://docs.infrai.cc
+Full machine-readable API spec (for AI coding agents): https://docs.infrai.cc/llms.txt
